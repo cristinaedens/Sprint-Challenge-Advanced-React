@@ -10,7 +10,8 @@ const Header = () => {
 
   return(
     <div className="navbar">
-      <button className="togglebtn" onClick={toggleMode}>Toggle Dark-Mode</button>
+      <button className="togglebtn" data-testid="darkmodes" onClick={toggleMode}>Toggle Dark-Mode</button>
+      <h1 className="titleHead">Women's World Cup Players.</h1>
     </div>
   )
 } //this closes Header
