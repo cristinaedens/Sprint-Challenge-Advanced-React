@@ -15,7 +15,7 @@ class Players extends React.Component {
     .then (result => {
       console.log(result);
     this.setState({players: result})})
-  }
+  } //This ends componentdidmount
 
   render() {
     return(
@@ -24,7 +24,7 @@ class Players extends React.Component {
         {this.state.players.map((item => <p>{item.name}</p>))}
       </div>
     )
-  }
+  } //This ends render
 
 } //this closes Player class
 
