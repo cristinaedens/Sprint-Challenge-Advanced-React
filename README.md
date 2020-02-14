@@ -23,9 +23,23 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+•A functional component is just plain Java script a class Component requires you to extend from React
+
 - [ ] Name three lifecycle methods and their purposes.
+
+• Mounting - Birth of your component
+• Update - Growth of your component
+• Unmounting - Death of your component
+
 - [ ] What is the purpose of a custom hook?
+
+•To reuse stateful logic
+
 - [ ] Why is it important to test our apps?
+
+•ensures that functionalit bugs and usability issues are far and few between.
+
 
 ## Project Set Up
 
@@ -59,5 +73,5 @@ Your finished project must include all of the following requirements:
 
 ## Stretch Problems
 
-- [ ] Implement another custom hook
+- [ x ] Implement another custom hook
 - [ ] Use a graphing library to graph the data you received from the API
